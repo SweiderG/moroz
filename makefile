@@ -1,4 +1,4 @@
 all:
 	gcc main.c -o hello
 clean:
-	rm hello
+	rm -f hello
