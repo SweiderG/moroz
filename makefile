@@ -1,5 +1,4 @@
 all:
-	gcc main.c
-
+	gcc main.c -o hello
 clean:
-	rm ./a.out
+	rm hello
